@@ -1,0 +1,155 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+   
+  }
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header section style starts */
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 560px;
+    padding: 20px;
+    background-color: #1F2937;  
+       
+}
+
+.logo {
+    margin-left: 300px;
+}
+.hero-description, .navigation a {
+    font-size: 18px;;
+    color: #F5E7EB; 
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
+
+.navigation ul li {
+    margin-left: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+ 
+/* header section style ends */
+
+/* hero section style starts */
+.hero-container{
+    background-color: #1F2937;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 140px;
+    gap: 80px;
+}
+.hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 0;
+}
+ 
+/* hero section style ends */
+
+ 
+
+/* projects section style starts */
+.image-container {
+    display: flex;
+    justify-content:center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image-wrapper {
+    text-align: center;
+    margin: 0 10px; /* Adjust spacing between images */
+}
+
+.image-wrapper img {
+    width: 200px; /* Adjust according to your preference */
+}
+
+.image-wrapper p {
+    margin-top: 5px; /* Adjust space between image and subtext */
+}
+
+.info-header {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* projects section style ends */
+
+/* about section style starts */
+.about-container {
+    background-color: #E5F7EB;
+}
+.about-content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 80px;
+    text-align: center;
+}
+/* about section style ends */
+
+
+/* contact section style starts */
+.contact-container{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 700px;
+    height: 100px;
+    margin: 60px auto;
+    
+}
+.contact-info {
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.contact-info button{
+    border: 2px solid white; 
+} 
+ 
+/* contact section style starts */
+
+/* footer section style starts */
+footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* footer section style starts */
